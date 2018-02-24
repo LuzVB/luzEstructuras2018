@@ -3,77 +3,46 @@
 	padding: 0;
 }
 
-body{
-	background: #E5E7E9;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  font-family: 'Montserrat';
 }
 
-header, .main , footer {
-	width: 90%;
-	max-width: 1000px;
-	margin: 20px auto;
+header{
+	color: #1A5276;
 }
 
-header nav{
-	background: #2E86C1;
-	overflow: hidden; 
+
+.navbar-brand{
+	font-size: 35px;
+	font-family: Arial;
+	font-weight: bold;
 }
 
-header nav ul{
-	list-style: none;
+.nav-link {
+	font-size: 20px;
+	text-transform: uppercase;
 }
 
-header nav ul li{
-	float: left;
+.container{
+	padding-top: 30px;
+
 }
 
-header nav ul li a {
-	padding: 10px 20px;
-	display: block;
-	color: #fff;
-	text-decoration: none;
+.container1{
+	padding-right: 120px;
+	padding-left: 120px;
 }
 
-header nav ul li a:hover {
-	background: #7FB3D5;
-} 
-
-.main .articulos{
-	float:left;
-	width: 68.5%;
-	margin-right: 1.5%;
-}
-
-.main .articulos article{
+.articulos article{
 	padding: 20px;
-	background: #fff;
-	margin-bottom: 20px;
-}
-
-aside {
-	float: left;
-	background:#F7DC6F;
-	width: 30%;
-	padding: 20px;
-	box-sizing: border-box;
-	text-align: justify;
-}
-
-aside h2 {
-	text-align: center;
-}
-
-aside a{
-	color:#154360;
-	font-size:17px;
-	font-family:"tahoma";
-}
-
-footer {
-	background:#154360;
-    color: #fff;
-    clear: both;
-    padding: 10px 0px;
-    text-align: center;
+	background: #D0D3D4;
+	margin-bottom: 15px;
 }
 
 .articulos p  {
@@ -81,32 +50,21 @@ footer {
 	margin: 0px 10px 0 10px;  
 }
 
-h1{
-  float: right;
-  font-family: "consolas";
-  text-align: center;
-  font-size: 60px;
-  margin: 20px 20px 0 0;
-  color: #154360;
+.articulos article ul li {
+	text-align: justify;
+	margin: 0px 20px 0 20px; 
 }
 
-h2{
-	font-family: verdana;
+aside{
+	background: #73C6B6;
 }
 
 
-h3{
-	font-weight: normal;
-	font-family: tahoma;
+footer {
+	margin: 0 120px 0 120px;
+	background:#154360;
+    color: #fff;
+    clear: both;
+    text-align: center;
+    padding: 10px 0px;
 }
-
-.imagen1 {
-	margin: 0 0 0 100px;
-	display: block;
-}
-
-ul{
-	text-align: center;
-	margin: 0 0 0 30px;
-}
-

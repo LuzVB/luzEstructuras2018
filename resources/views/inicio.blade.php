@@ -14,7 +14,8 @@
 <body>
 	
 	<header>
-     <!-- probando navar -->
+		<div class="container1">
+
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#">Estructuras de datos</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,16 +27,19 @@
       <li class="nav-item active">
         <a class="nav-link" href="#">Introduccion <span class="sr-only">(current)</span></a>
       </li>
-      <li>
+      <li class="nav-item active">
       	<a class="nav-link" href="#">clase 2<span class="sr-only">(current)</span></a>
       </li>
-      <li>
+      <li class="nav-item active">
       	<a class="nav-link" href="#">contactos<span class="sr-only">(current)</span></a>
       </li>
   </div>
 </nav>
+ 
+		</div>
+ 
+</header>
 
-	</header>
 	<div class="container">
  	 <div class="row">
 	   <div class="col-sm">
@@ -121,21 +125,31 @@
   	   </div>
   	  <div class="col-sm">
        <aside>
-			<h3>Ejemplos de estructuras</h3>
-			<p>los ejemplos</p>
+		<h2>Ejemplos de estructuras</h3><br>
+			<hr size="4px;"><br>	
+			<a href="#">Operaciones</a><br><br>
 
+			<?php
+			 $arreglo = array("Luz","Maria","Sofia","Pepito");
+			 echo "";
+			 print_r($arreglo);
+			 echo "<br><br>En este arreglo al aplicar la estructura de datos ya sean pilas,
+			 colas o listas se pueden hacer las operaciones de crear, añadir, borrar, o
+			 consultar";	
+			?>
+			<br><br><hr size="4px;"><br>
+			<a href="#">Titulo</a><br><br>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus ornare condimentum sem. Nullam a eros. Vivamus vestibulum hendrerit arcu. Integer a orci. Morbi nonummy semper est. Donec at risus sed velit porta dictum. Maecenas condimentum orci aliquam nunc. Morbi nonummy tellus in nibh. Suspendisse orci eros, dapibus at, ultrices at, egestas ac, tortor. Suspendisse fringilla est id erat. Praesent et libero. Proin nisi felis, euismod a, tempus varius, elementum vel, nisl. Fusce non magna sit amet enim suscipit feugiat. Fusce et leo.</p>
 		</aside>
    	  </div>
 	 </div>
 	</div>
 
-	<div class="row justify-content-center">
-    	<div class="col-4">
-      		<footer>
+	
+      <footer>
 		  <p>Luz Velasquez - Universidad de Cundinamarca - 2018</p>
-	      </footer>
-    </div>
-
+	  </footer>
+ 
 
 	
 
