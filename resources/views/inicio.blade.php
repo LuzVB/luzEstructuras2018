@@ -52,36 +52,36 @@
 					<li>Son aquellas que nos permiten almacenar, manipular y ordenar los datos</li>
 					<li>Son una colección de datos cuya organización se caracteriza por las funciones de acceso que se usan para almacenar y acceder elementos
                     individuales de datos.</li>
+                    <li>Es una forma de como están organizado un conjunto de datos y como se
+                   encuentran interconectados.</li>
+                   <li>Estas estructuras solo existen en la memoria ram, cierras el programa o
+                   liberas memoria y desaparecen todos los datos.</li>
+                   <li>Función principal es buscar la eficiencia tanto en memoria como tiempos
+                   de ejecución.</li>
 				</ul>
-				<p>
-                   ▸ Es una forma de como están organizado un conjunto de datos y como se
-                   encuentran interconectados.<br>
-                   ▸ Estas estructuras solo existen en la memoria ram, cierras el programa o
-                   liberas memoria y desaparecen todos los datos.<br>
-                   ▸ Función principal es buscar la eficiencia tanto en memoria como tiempos
-                   de ejecución.</p>
 			</article>
 			<article>
 				<h2>Importancia</h2><br>
 				<p>La mayoría de las estructuras de datos
                    están inspiradas en la vida real y
                    usan los mismos términos la mayoría
-                   de las veces.</p><br>
-                <div class ="imagen1">
-                	<img src="imagenes/orden.jpg" width="400">
-                </div>   
+                   de las veces.
+               	<!--	<img src="imagenes/desLibros.jpg" class="rounded float-left" width="100" >
+					<img src="imagenes/ordenLibros.jpg" class="rounded float-right" width="100">--></p><br>
+          
 			</article>
 			<article>
                 <h2>Manipulación de datos</h2>
 				<h3>Operaciones</h3>
 				<br>
-				<p>
-                  ▸ Recorrido : Implica el acceder a cada registro una única vez aunque uno o más ítems del registro sean procesados.<br>
-                  ▸ Búsqueda: Implica la localización de un registro caracterizado por una determinada clave o también el acceso a todos los registros que cumplan una o más condiciones.<br>
-                  ▸ Inserción: Cuando añadimos nuevos registros a la estructura.<br>
-                  ▸ Eliminación: Operación de borrado de un registro de la estructura.<br>
-                  ▸ Ordenación: Es la operación de clasificar los registros conforme a un orden lógico determinado (por ejemplo, alfabéticamente, de acuerdo a una clave de nombre, o numérica, de acuerdo a alguna clave de número).<br>
-                  ▸ Mezcla: Es la operación de combinar dos archivos previamente ordenados en unoúnico que también lo está.</p>
+			    <ul>
+			    	<li>Búsqueda: Implica la localización de un registro caracterizado por una determinada clave o también el acceso a todos los registros que cumplan una o más condiciones.</li>
+			    	<li>Inserción: Cuando añadimos nuevos registros a la estructura.</li>
+			    	<li>Eliminación: Operación de borrado de un registro de la estructura.</li>
+			    	<li>Ordenación: Es la operación de clasificar los registros conforme a un orden lógico determinado (por ejemplo, alfabéticamente, de acuerdo a una clave de nombre, o numérica, de acuerdo a alguna clave de número).</li>
+			    	<li>Mezcla: Es la operación de combinar dos archivos previamente ordenados en unoúnico que también lo está.</li>
+
+			    </ul>
 			</article>
 			<article>
 				<h2>Clasificación</h2>
@@ -93,24 +93,41 @@
                 <p>
                   Estructuras de datos se pueden construir de una o mas primitivas. Las estructuras de datos simples que consideramos se construyen a partir de estructuras primitivas y son: cadenas, arreglos y registros.</p><br>
                 <h5>Lineales</h5>
-                <p>▸ Derivados del concepto de secuencia (secuencias es un conjuntos de   elementos entre los que se establece una relación de predecesor y sucesor).
-                	<br> ▸ Desde el punto de vista de la informática, existen tres estructuras lineales especialmente importantes: las pilas, las colas y las listas. <br>▸ Las operaciones básicas para dichas estructuras son:<br>
-                     • crear la secuencia vacía <br>
-                     • añadir un elemento a la secuencia <br>
-                     • borrar un elemento a la secuencia <br>
-                     • consultar un elemento de la secuencia <br>
-                     • comprobar si la secuencia está vacía  <br>
-                 ▸ Definición <br>
-                      • Pilas: las tres operaciones actúan sobre el final de la secuencia<br>
-                      • Colas: se añade por el final y se borra y consulta por el principio<br>
-                      • Listas: las tres operaciones se realizan sobre una posición privilegiada de la secuencia, la cual puede desplazarse</p><br>  
+                <ul>
+                	<li>Derivados del concepto de secuencia (secuencias es un conjuntos de   elementos entre los que se establece una relación de predecesor y sucesor).</li>
+                	<li>Desde el punto de vista de la informática, existen tres estructuras lineales especialmente importantes: las pilas, las colas y las listas.</li>
+                	<li>Las operaciones básicas para dichas estructuras son:
+                		<ul>
+                			<li>
+                			 crear la secuencia vacía
+                			</li>
+                			<li>
+                			 añadir un elemento a la secuencia
+                			</li>
+                			<li>borrar un elemento a la secuencia</li>
+                			<li>consultar un elemento de la secuencia</li>
+                			<li>comprobar si la secuencia está vacía</li>
+
+                		</ul>
+                	</li>
+                </ul>
+                <ul><li>Definición:</li>
+                	<ul>
+                		<li>Pilas: las tres operaciones actúan sobre el final de la secuencia.</li>
+                		<li>Colas: se añade por el final y se borra y consulta por el principio.</li>
+                		<li>Listas: las tres operaciones se realizan sobre una posición privilegiada de la secuencia, la cual puede desplazarse</li>
+            	    </ul>
+                </ul>
+
                 <h5>No Lineales</h5>   
-                <p>▸ Estructuras de datos multienlazadas. Cada elemento puede estar enlazado a cualquier otro componentes.<br>
-                	▸ En estas estructuras cada elemento puede tener varios elementos “siguientes”, lo cual introduce el concepto de estructuras de ramificación.<br>
-                	▸ Estas estructuras de datos de ramificación son llamadas grafos y arboles.<br>
-                	• Un grafo es un conjunto de puntos y un conjunto de líneas, con cada línea se une un punto a otro.<br>
-                	<!--colocar un div que muestre las imagenes de un grafo y un arbol-->
-                    • Un árbol es un grafo conexo, simple y aciclico. Un árbol no contiene ni ciclos ni bucles; existe una sola arista entre cualquier par de nodos.</p></article>
+                <ul>
+                	<li>Estructuras de datos multienlazadas. Cada elemento puede estar enlazado a cualquier otro componentes.</li>
+                	<li>En estas estructuras cada elemento puede tener varios elementos “siguientes”, lo cual introduce el concepto de estructuras de ramificación.</li>
+                	<li>Estas estructuras de datos de ramificación son llamadas grafos y arboles.</li>
+                	<li>Un grafo es un conjunto de puntos y un conjunto de líneas, con cada línea se une un punto a otro.</li><!--colocar un div que muestre las imagenes de un grafo y un arbol-->
+                	<li>Un árbol es un grafo conexo, simple y aciclico. Un árbol no contiene ni ciclos ni bucles; existe una sola arista entre cualquier par de nodos.</li>
+                </ul>
+               </article>
                 <article>
                 <h2>Estáticas y dinámicas</h2><br>  
                 <h3>Estáticas</h3> 
@@ -126,7 +143,7 @@
   	  <div class="col-sm">
        <aside>
 		<h2>Ejemplos de estructuras</h3><br>
-			<hr size="4px;"><br>	
+			<hr size="6px;"><br>	
 			<a href="#">Operaciones</a><br><br>
 
 			<?php
@@ -137,7 +154,7 @@
 			 colas o listas se pueden hacer las operaciones de crear, añadir, borrar, o
 			 consultar";	
 			?>
-			<br><br><hr size="4px;"><br>
+			<br><br><hr size="6px;"><br>
 			<a href="#">Titulo</a><br><br>
 			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus ornare condimentum sem. Nullam a eros. Vivamus vestibulum hendrerit arcu. Integer a orci. Morbi nonummy semper est. Donec at risus sed velit porta dictum. Maecenas condimentum orci aliquam nunc. Morbi nonummy tellus in nibh. Suspendisse orci eros, dapibus at, ultrices at, egestas ac, tortor. Suspendisse fringilla est id erat. Praesent et libero. Proin nisi felis, euismod a, tempus varius, elementum vel, nisl. Fusce non magna sit amet enim suscipit feugiat. Fusce et leo.</p>
 		</aside>
